@@ -12,4 +12,7 @@ class Song
     @@count
   end
     
+  def self.genres 
+    @@genres = []
+    if @@genres
 end
