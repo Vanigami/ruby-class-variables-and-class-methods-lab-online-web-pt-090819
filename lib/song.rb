@@ -29,6 +29,7 @@ class Song
       else
         genre_count = 1 
       end
+    end
   
   def self.artists
     @@artists.uniq
