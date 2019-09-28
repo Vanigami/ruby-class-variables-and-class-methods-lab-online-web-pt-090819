@@ -30,6 +30,7 @@ class Song
         genre_count = 1 
       end
     end
+    genre_count
   end
   
   def self.artists
@@ -45,5 +46,6 @@ class Song
         artist_count = 1 
       end
     end
+    artist_count
   end
 end
